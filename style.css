@@ -241,6 +241,11 @@
     background-size: cover;
     border-radius: 0.625rem;
 }
+#donate-page{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size:1.5rem;
+}
 
 /* hero2 */
 
@@ -378,7 +383,11 @@
     padding-left: 2rem;
 }
 
-
+#enquire-page{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size:1rem;
+}
 
 
 
@@ -411,7 +420,7 @@
     margin-top: 0.3rem;
 }
 .box-image1{
-    background-image: url("delivery.jpg");
+    background-image: url("hotel.jpg");
     width: 15rem;
     height: 15rem;
     background-size: cover;
@@ -443,7 +452,7 @@
 }
 
 .box-image2{
-     background-image: url("delivery.jpg"); 
+     background-image: url("ngo.jpg"); 
     width: 15rem;
     height: 15rem;
     background-size: cover;
@@ -463,7 +472,7 @@
     margin-top: 0.8rem;
 }
 .box-image3{
-    background-image: url("delivery.jpg"); 
+    background-image: url("resturant.jpg"); 
     width: 15rem;
     height: 15rem;
     background-size: cover;
@@ -752,11 +761,11 @@ footer {
 }
 
 .footer-links h3, .footer-social h3 {
-    font-size: 1.25;
+    font-size: 1.5rem;
     margin-bottom: 0.938rem;
 }
 
-.footer-links ul, .footer-social ul {
+.footer-links ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -764,6 +773,13 @@ footer {
     justify-content: center;
 }
 
+.footer-social ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
 .footer-links ul li, .footer-social ul li {
     margin: 0 10px;
 }
@@ -777,6 +793,9 @@ footer {
 .footer-links ul li a:hover, .footer-social ul li a:hover {
     color: #ccc;
 }
+.footer-links ul li a  {
+    font-size: 1.45rem;
+}
 
 .footer-social ul li a i {
     font-size: 1.5rem;
@@ -786,10 +805,11 @@ footer {
     border-top: 1px solid #444;
     padding-top: 1.25rem;
     margin-top: 1.25rem;
-    font-size: 0.875rem;
+    font-size: 0.880rem;
     width: 100%;
     text-align: center;
 }
+
 
 /* Responsive Styling */
 @media (max-width: 768px) {

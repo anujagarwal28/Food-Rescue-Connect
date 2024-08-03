@@ -241,4 +241,3 @@ function enquire(){
       document.getElementById("login-page").style.color="grey";
       document.getElementById("signup-page").style.color="grey";
  }
-

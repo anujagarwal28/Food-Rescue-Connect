@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Rescue Connect</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>FOOD RESCUE CONNECT</title>
 </head>
 <body>
 
@@ -12,7 +13,7 @@
 
     <div class="nav-bar">
         <div class="nav-logo">
-            <a href="#">FOOD RESCUE CONNECT</a>
+            <a id="main" onclick="main()" href="index.html">FOOD RESCUE CONNECT</a>
         </div>
         <div class="container">
             
@@ -35,7 +36,7 @@
               <a id="login-page" onclick="login()" href="login.html">Login</a>
             </div>
             <div class="signup">
-              <a id="signup-page" onclick="signup()" href="register.html">Sign Up</a>
+              <a id="signup-page" onclick="signup()" href="register.html">SignUp</a>
           </div>
         </div>
         
@@ -44,10 +45,9 @@
 
 
 
-
-    <div class="register" id="food-donation-form">
+    <div class="register" id="food-require-form">
         <div class="form">
-          <div class="title">Food Donate Registration</div>
+          <div class="title">Food Requirement Form</div>
           <div class="input-container ic1">
             <input id="name" class="input" type="text" placeholder=" " />
             <div class="cut"></div>
@@ -69,40 +69,43 @@
             <label for="details" class="placeholder">Provide details</label>
           </div>
           <button type="text" class="submit">submit</button>
+         </div>
+      
         </div>
-    
-                
-      </div>
 
-      <div class="footer">
 
-        <footer>
-          <div class="footer-container">
-              <div class="footer-links">
-                  <h3>Important Links</h3>
-                  <ul>
-                      <li><a id="main" onclick="main()" href="#">Home</a></li>
-                      <li><a id="about-page" onclick="aboutus()" href="#">About Us</a></li>
-                      <li><a id="donate-page" onclick="donate()" href="#">Donate Food</a></li>
-                      <li><a id="our-partner" onclick="partners()" href="#">Volunteer</a></li>
-                      <li><a id="contact-page" onclick="contacts()" href="#">Contact</a></li>
-                  </ul>
-              </div>
-              <div class="footer-social">
-                  <h3>Follow Us</h3>
-                  <ul>
-                      <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                      <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                      <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                      <li><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                  </ul>
-              </div>
+        <div class="footer">
+
+          <footer>
+            <div class="footer-container">
+                <div class="footer-links">
+                    <h3>Important Links</h3>
+                    <ul>
+                        <li><a id="main" onclick="main()" href="index.html">Home</a></li>
+                        <li><a id="about-page" onclick="aboutus()" href="hero2.html">About</a></li>
+                        <li><a id="donate-page" onclick="donate()" href="food-register.html">Donate</a></li>
+                        <li><a id="our-partner" onclick="partners()" href="partners.html">Volunteer</a></li>
+                        <li><a id="contact-page" onclick="contacts()" href="feedback.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-info">
+                <p>&copy; 2024 FOOD RESCUE CONNECT. All rights reserved.</p>
+            </div>
+          </footer>
           </div>
-          <div class="footer-info">
-              <p>&copy; 2024 FOOD RESCUE CONNECT. All rights reserved.</p>
-          </div>
-        </footer>
-        </div>
+
+
+
 
 
 </body>

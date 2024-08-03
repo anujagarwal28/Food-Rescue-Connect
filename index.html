@@ -13,7 +13,7 @@
 
         <div class="nav-bar">
             <div class="nav-logo">
-                <a href="#">FOOD RESCUE CONNECT</a>
+                <a id="main" onclick="main()" href="index.html">FOOD RESCUE CONNECT</a>
             </div>
             <div class="container">
                 
@@ -36,7 +36,7 @@
                   <a id="login-page" onclick="login()" href="login.html">Login</a>
                 </div>
                 <div class="signup">
-                  <a id="signup-page" onclick="signup()" href="register.html">Sign Up</a>
+                  <a id="signup-page" onclick="signup()" href="register.html">SignUp</a>
               </div>
             </div>
             
@@ -51,7 +51,7 @@
           <div class="hero-part1">
               <p>Your donations provide food to those who need it the most.</p>
               <br><br>
-              <button class="button-donate" id="donate-button" onclick="donate()">Donate</button>
+              <button class="button-donate" id="donate-button" onclick="donate()"><a id="donate-page" onclick="donate()" href="food-register.html">Donate</a></button>
           </div>
           <div class="hero-part2"></div>
       </div>
@@ -72,7 +72,7 @@
              <p>Name: xyz organization</p>
              <p>Location: Noida</p>
             <div class="box-text">
-                <button id="enquire" onclick="enquire()">Enquire</button>
+                <button id="enquire" onclick="enquire()"><a id="enquire-page" onclick="enquire()" href="food-get.html">Enquire</a></button>
             </div>
             
         </div>
@@ -81,7 +81,7 @@
             <p>Name: xyz organization</p>
             <p>Location: Delhi</p>
             <div class="box-text">
-              <button id="enquire" onclick="enquire()">Enquire</button>
+              <button id="enquire" onclick="enquire()"><a id="enquire-page" onclick="enquire()" href="food-get.html">Enquire</a></button>
             </div>
         </div>
         <div class="box-3">
@@ -89,35 +89,35 @@
             <p>Name: xyz organization</p>
             <p>Location: Gurugram</p>
             <div class="box-text">
-              <button id="enquire" onclick="enquire()">Enquire</button>
+              <button id="enquire" onclick="enquire()"><a id="enquire-page" onclick="enquire()" href="food-get.html">Enquire</a></button>
             </div>
         </div>
     </div>
 
     <div class="boxes">
         <div class="box-1">
-            <div class="box-image1"></div>
+            <div class="box-image3"></div>
              <p>Name: xyz organization</p>
              <p>Location: Ghaziabad</p>
             <div class="box-text">
-              <button id="enquire" onclick="enquire()">Enquire</button>
+              <button id="enquire" onclick="enquire()"><a id="enquire-page" onclick="enquire()" href="food-get.html">Enquire</a></button>
             </div>
             
         </div>
         <div class="box-2">
-            <div class="box-image2"></div>
+            <div class="box-image1"></div>
             <p>Name: xyz organization</p>
             <p>Location: Lucknow</p>
             <div class="box-text">
-              <button id="enquire" onclick="enquire()">Enquire</button>
+              <button id="enquire" onclick="enquire()"><a id="enquire-page" onclick="enquire()" href="food-get.html">Enquire</a></button>
             </div>
         </div>
         <div class="box-3">
-            <div class="box-image3"></div>
+            <div class="box-image2"></div>
             <p>Name: xyz organization</p>
             <p>Location: Kanpur</p>
             <div class="box-text">
-              <button id="enquire" onclick="enquire()">Enquire</button>
+              <button id="enquire" onclick="enquire()"><a id="enquire-page" onclick="enquire()" href="food-get.html">Enquire</a></button>
             </div>
         </div>
     </div>
@@ -357,11 +357,11 @@
       <div class="footer-links">
           <h3>Important Links</h3>
           <ul>
-              <li><a id="main" onclick="main()" href="#">Home</a></li>
-              <li><a id="about-page" onclick="aboutus()" href="#">About Us</a></li>
-              <li><a id="donate-page" onclick="donate()" href="#">Donate Food</a></li>
-              <li><a id="our-partner" onclick="partners()" href="#">Volunteer</a></li>
-              <li><a id="contact-page" onclick="contacts()" href="#">Contact</a></li>
+              <li><a id="main" onclick="main()" href="index.html">Home</a></li>
+              <li><a id="about-page" onclick="aboutus()" href="hero2.html">About</a></li>
+              <li><a id="donate-page" onclick="donate()" href="food-register.html">Donate</a></li>
+              <li><a id="our-partner" onclick="partners()" href="partners.html">Volunteer</a></li>
+              <li><a id="contact-page" onclick="contacts()" href="feedback.html">Contact</a></li>
           </ul>
       </div>
       <div class="footer-social">
@@ -379,9 +379,6 @@
   </div>
 </footer>
 </div>
-
-
-
 
 
 <script src="script.js"></script>
